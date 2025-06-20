@@ -1,0 +1,175 @@
+* {
+
+    padding:0;
+    margin:  0;
+    font-family: ariaal , sans-serif;
+
+
+}
+
+.box {
+    
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    height: 600px;
+    background-color: rgb(143, 204, 218, 0.6);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 70px auto;
+    border-radius: 30px;
+}
+
+.box img {
+
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 130px;
+    top: 30px;
+
+
+
+
+}
+
+.box h1 {
+
+    font-size: 60px;
+    font-weight:  900;
+    position: relative;
+    top: 12px;
+    left: 80px;
+    color:rgb(247, 247, 247);
+}
+
+.box p {
+
+    font-size: 13px;
+    width: 300px;
+    position: relative;
+    top: 210px;
+    left: 100px;
+    color:rgb(78, 55, 69);
+    z-index: 100;
+    
+}
+
+
+
+.box span  {
+
+
+    position: relative;
+    top: 136px;
+    left: 120px;
+    color:rgb(6, 101, 115);
+
+
+
+}
+
+
+
+.box2 {
+    width: 300px;
+    height: 480px;
+    background-color: rgba(189, 157, 108, 0.7);
+    position: absolute;       /* Use absolute to control placement */
+    top: 45%;
+    right: 100px;              /* Distance from right edge */
+    transform: translateY(-50%);
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+
+
+
+.box2 input {
+    width: 230px;
+    height: 50px;
+    border: none;
+    background-color:rgb(130, 113, 74,0.5);
+    position: relative;
+    left: 20px;
+    border-radius: 6px;
+}
+.box2 h2 {
+
+    color: white;
+    position: relative;
+    left: 68px; 
+
+    margin:20px;
+}
+
+
+
+
+.box2 button {
+
+    width: 220px;
+    height: 40px;
+    border-radius: 25px;
+    position: relative;
+    left:30px;
+    top: 30px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    background-color:rgb(249, 245, 245)
+}
+
+
+.box2 a {
+
+
+    color: white;
+    font-size: 13px;
+    position: relative;
+    left: 90px;
+    top: 15px;
+
+
+}
+
+.box2 p {
+    
+    color: white;
+    position: relative;
+    top: -10px;
+    left: 
+
+}
+
+.box2 .name {
+    
+    margin-top: 20px;
+}
+
+
+
+.box2 input::placeholder {
+
+
+
+    color:rgba(255, 255, 255, 0.68);
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
